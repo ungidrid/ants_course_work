@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/AntActor.Chat.Backend/bin/Debug/net5.0
+/AntActor.Chat.Backend/obj
+/AntActor.ChatClient/bin/Debug/net5.0-windows
+/AntActor.ChatClient/obj
+/AntActor.Core/bin/Debug/net5.0
+/AntActor.Core/obj/Debug/net5.0
+/AntActor.Core/obj
+/AntActor.Test/bin/Debug/net5.0
+/AntActor.Test/obj

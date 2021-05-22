@@ -1,0 +1,20 @@
+﻿<Window x:Class="AntActor.ChatClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AntActor.ChatClient"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="453" Width="765">
+    <Grid Margin="0,0,0,2">
+        <Button Content="Join" HorizontalAlignment="Left" Margin="10,120,0,0" VerticalAlignment="Top" Name="ToggleChannelButton" Click="ToggleChannelButton_Click" Width="43"/>
+        <TextBox HorizontalAlignment="Left" Margin="10,98,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Name="ChannelNameInput" />
+        <TextBlock HorizontalAlignment="Left" Margin="166,0,0,52" TextWrapping="Wrap" VerticalAlignment="Bottom" Height="364" Width="573" Name="ChatAreaTextBlock" IsEnabled="False"/>
+        <Label Content="Channel Name" HorizontalAlignment="Left" Margin="6,72,0,0" VerticalAlignment="Top"/>
+        <Label Content="Username" HorizontalAlignment="Left" Margin="6,10,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="10,36,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Name="UsernameInput"/>
+        <Button Content="Set" HorizontalAlignment="Left" Margin="10,57,0,0" VerticalAlignment="Top" Width="43" Name="SetUsernameButton" Click="SetUsernameButton_OnClick"/>
+        <TextBox HorizontalAlignment="Left" Margin="166,392,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="520" Height="24" Name="MessageInput" KeyDown="MessageInput_OnKeyDown"/>
+        <Button Content="Send" HorizontalAlignment="Left" Margin="691,392,0,0" VerticalAlignment="Top" Width="48" Height="22" Name="SendMessageButton" Click="SendMessageButton_OnClick"/>
+    </Grid>
+</Window>
